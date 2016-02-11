@@ -6,6 +6,7 @@ requires 'Capture::Tiny';
 # Web
 requires 'Mojolicious';
 requires 'LWP';
+requires 'LWP::Protocol::https';
 requires 'URI';
 requires 'HTTP::Tiny';
 
@@ -31,6 +32,7 @@ requires 'JSON';
 requires 'JSON::XS';
 requires 'YAML::XS';
 requires 'XML::LibXML';
+requires 'XML::Parser';
 
 # Async, parallel
 requires 'AnyEvent';
