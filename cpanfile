@@ -37,7 +37,6 @@ requires 'XML::Parser';
 
 # Async, parallel
 requires 'AnyEvent';
-requires 'Coro';
 requires 'Parallel::ForkManager';
 
 # DB
