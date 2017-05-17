@@ -15,6 +15,7 @@ requires 'Test::Exception';
 requires 'Mock::Quick';
 requires 'Minilla';
 requires 'Carton';
+requires 'Carmel';
 
 # Logs
 requires 'Log::Any';
