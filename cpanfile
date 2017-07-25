@@ -24,6 +24,7 @@ requires 'Log::Any::Adapter::Dispatch';
 
 # Objects
 requires 'Moose';
+requries 'Mouse';
 requires 'Moo';
 requires 'Class::Tiny';
 requires 'Bread::Board';
