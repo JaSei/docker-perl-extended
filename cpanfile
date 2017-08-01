@@ -43,3 +43,6 @@ requires 'Parallel::ForkManager';
 
 # DB
 requires 'DBI';
+
+# Security
+requires 'Net::SSLeay';
