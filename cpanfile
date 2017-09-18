@@ -32,7 +32,7 @@ requires 'Type::Tiny';
 
 # Serialization
 requires 'JSON';
-requires 'JSON::XS';
+requires 'Cpanel::JSON::XS';
 requires 'YAML::XS';
 requires 'XML::LibXML';
 requires 'XML::Parser';
