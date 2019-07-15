@@ -40,9 +40,11 @@ requires 'XML::Parser';
 # Async, parallel
 requires 'AnyEvent';
 requires 'Parallel::ForkManager';
+requires 'Promises';
 
 # DB
 requires 'DBI';
+requires 'DBD::Pg';
 
 # Security
 requires 'Net::SSLeay';
